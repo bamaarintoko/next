@@ -9,12 +9,16 @@
     "font-awesome": "^4.7.0",
     "next": "^7.0.2",
     "next-images": "^1.0.1",
+    "next-redux-wrapper": "^2.0.0",
     "react": "^16.6.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.0",
     "react-fontawesome": "^1.6.1",
     "react-materialize": "^2.4.7",
-    "reactstrap": "^6.5.0"
+    "react-redux": "^5.1.0",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {},
   "scripts": {

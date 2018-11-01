@@ -2,6 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import Header from "./Component/Header"
 import {Slider, Slide, Col, Footer} from "react-materialize"
+import {Provider} from 'react-redux'
+import store from "./store"
 
 const Index = (props) => (
     <div>
