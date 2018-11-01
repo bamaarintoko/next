@@ -1,0 +1,252 @@
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.example_ {
+    font-size: 50px;
+}
+
+.home_ {
+    height: 30vh;
+    background-color: #fff;
+}
+
+.container_ {
+    height: 350px;
+    background-color: blue;
+
+    position: absolute; /*it can be fixed too*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    /*max-width:100%;*/
+    max-height: 100%;
+    overflow: auto;
+}
+
+.img_ {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box_image {
+    background-color: #282c34;
+    display: block;
+    margin: 0 auto;
+}
+
+.name_ {
+    font-size: 25px;
+}
+
+.title_ {
+    font-size: 18px;
+}
+
+.row_name {
+    float: left;
+    margin-top: 10px;
+}
+
+.home_contact {
+    float: left;
+    margin-right: 64px;
+}
+
+/*RESUME PAGE*/
+
+.div_year {
+    height: 92px;
+    font-size: 10px;
+}
+
+.div_edu {
+    height: 92px;
+    font-size: 14px;
+}
+
+.center_name {
+    text-align: center;
+}
+
+.education_div {
+    margin-top: 10px;
+    height: 50px;
+    border-top: dashed 1px;
+    border-bottom: dashed 1px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    /*border-style: dashed;*/
+
+}
+
+#outer {
+    width: 100%;
+    text-align: center;
+}
+
+#inner {
+    display: inline-block;
+}
+
+.circle {
+    position: relative;
+    border: 2px solid #999;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 80px;
+    background-color: #999;
+    z-index: 2;
+}
+
+.circle:first-child {
+    margin-top: 0;
+}
+
+.circle:before {
+    position: absolute;
+    border: 1px solid #999;
+    width: 0;
+    height: 90px;
+    display: block;
+    content: '';
+    left: 55%;
+    z-index: 1;
+    top: -84px;
+    margin-left: -1px;
+}
+
+.circle:first-child:before {
+    display: none;
+}
+
+.row_resume {
+    padding-top: 10px;
+}
+
+/*WORK PAGE*/
+.image_left {
+    width: 100px;
+}
+
+.image_right {
+    width: 100px;
+    float:right;
+}
+
+.border_image {
+    float: right;
+    width: 100%;
+    border-bottom: dashed 1px;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 400px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .home_ {
+        height: 1vh;
+        /*background-color: #000;*/
+    }
+
+    .img_ {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .box_image {
+        background-color: #282c34;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .name_ {
+        font-size: 14px;
+    }
+
+    .title_ {
+        font-size: 11px;
+    }
+
+    .row_name {
+        float: left;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .div_edu {
+        height: 92px;
+        font-size: 10px;
+    }
+
+    .image_left {
+        float: left;
+        width: 70px;
+    }
+
+    .image_right {
+        float: right;
+        width: 70px;
+    }
+}
+
+@media only screen
+and (min-device-width: 400px)
+and (max-device-width: 450px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .home_ {
+        height: 1vh;
+        /*background-color: #000;*/
+    }
+
+    .img_ {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .box_image {
+        background-color: #282c34;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .name_ {
+        font-size: 14px;
+    }
+
+    .title_ {
+        font-size: 11px;
+    }
+
+    .row_name {
+        float: left;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .div_edu {
+        height: 92px;
+        font-size: 14px;
+    }
+
+    .home_contact {
+
+    }
+}
